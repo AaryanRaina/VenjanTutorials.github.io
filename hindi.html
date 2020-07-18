@@ -545,29 +545,35 @@
           
 		  
 		  
-			<button type="submit" class="btn btn-solid-lg page-scroll">
-			  SUBMIT
-			</button>
+		 <button type="submit" class="btn btn-solid-lg page-scroll button">Submit</button>
+		 
+		 
+
 
 			<!-- Modal -->
-			<div class="modal fade " id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
 			  <div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
 				  <div class="modal-header">
-					<h5 class="modal-title" id="staticBackdropLabel">Submitted Successfully</h5>
+					<h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					  <span aria-hidden="true">&times;</span>
 					</button>
 				  </div>
 				  <div class="modal-body">
-					You will receive an E-mail regarding your further Interview and Screening Test in a few days.
+					...
 				  </div>
 				  <div class="modal-footer">
-					<a class="btn-solid-lg page-scroll button" href="index.html">Close</a>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Understood</button>
 				  </div>
 				</div>
 			  </div>
 			</div>
+
+
+		  
+
 		  
 		  
 		  
@@ -675,7 +681,6 @@
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
 	
-	
 	<script>
 			$("#form").on('submit', function(e){
 			   $('#staticBackdrop').modal('show');
@@ -685,7 +690,7 @@
 	
 	
 	
-	</script>	
+	</script>
     
 </body>
 </html>
