@@ -544,9 +544,8 @@
 		</div>	
           
 		  
-		  <!-- Button trigger modal -->
 		  
-			<button type="button" class="btn btn-solid-lg page-scroll" data-toggle="modal" data-target="#staticBackdrop">
+			<button type="submit" class="btn btn-solid-lg page-scroll">
 			  SUBMIT
 			</button>
 
@@ -675,6 +674,18 @@
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+	
+	
+	<script>
+			$("#form").on('submit', function(e){
+			   $('#staticBackdrop').modal('show');
+			   e.preventDefault();
+			});
+		
+	
+	
+	
+	</script>	
     
 </body>
 </html>
